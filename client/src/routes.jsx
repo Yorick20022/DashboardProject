@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
-import App from './pages/home.jsx'
+import App from './pages/dashboard.jsx'
 
 const Routes = () => {
     return (

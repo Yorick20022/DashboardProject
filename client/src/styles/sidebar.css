@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+.sidebar {
+    position: absolute;
+    background-color: #35473E;
+    width: 16rem;
+    height: 103vh;
+    margin-left: -10px;
+    margin-top: -26px;
+}
+
+.servertitle {
+    color: #FFFFFF;
+    margin-top: 2.5rem;
+    margin-left: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.servertitleline {
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.sidebarmenu {
+    position: absolute;
+    margin-top: 3rem;
+}
+
+.fa-gauge {
+    position: absolute;
+    margin-top: 7rem;
+    color: #FFF;
+    margin-left: 1.5rem;
+    font-size: 20px;
+}
+
+.dashboardtext {
+    position: absolute;
+    margin-top: 6.7rem;
+    color: #FFF;
+    margin-left: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.dashboardtext:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.5); /* White with 50% opacity */
+}
+
+.fa-gear {
+    position: absolute;
+    margin-top: 9.5rem;
+    color: #FFF;
+    margin-left: 1.5rem;
+    font-size: 20px;
+}
+
+.settingstext {
+    position: absolute;
+    margin-top: 9.2rem;
+    color: #FFF;
+    margin-left: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.settingstext:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.5); /* White with 50% opacity */
+}
+
+.fa-wrench {
+    position: absolute;
+    margin-top: 12rem;
+    color: #FFF;
+    margin-left: 1.5rem;
+    font-size: 20px;
+}
+
+.toolstext {
+    position: absolute;
+    margin-top: 11.7rem;
+    color: #FFF;
+    margin-left: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.toolstext:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.5); /* White with 50% opacity */
+}
+
+.menusearch {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 0.5rem;
+    width: 13rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255); /* White with 50% opacity */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}

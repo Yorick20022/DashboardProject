@@ -6,7 +6,7 @@ function App() {
 
   const getData = async () => {
     try {
-      const response = await fetch('http://localhost:3000/result');
+      const response = await fetch('http://localhost:3005/result');
       if (response.ok) {
         const result = await response.json();
         setData(result); // Set the fetched data
@@ -17,7 +17,7 @@ function App() {
       console.error('Error while fetching data', error);
     }
   };
-  
+
   useEffect(() => {
     getData();
   }, []
@@ -33,7 +33,7 @@ function App() {
           </div>
         ))
       ) : (
-        <h2>Loading...</h2>
+        <h2>Loading...</h2> // If data is null, display "Loading..."
       )}
     </div>
   );

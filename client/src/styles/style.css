@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+body {
+    overflow: hidden;
+    background-color: #7F9C81F5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.welcomeuser {
+    position: absolute;
+    margin-top: 2.5rem;
+    color: #FFFFFF;
+    margin-left: 17.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    top: 10rem;
+    left: 17.5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.box {
+    display: flex;
+    width: 13rem;
+    height: 7.5rem;
+    background-color: #E8F0F2E5;
+    visibility: 96%;
+    border-radius: 25px;
+}
+
+.statstext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    color: #000000;
+    margin-left: 1rem;
+    border-bottom: 3px solid #5B5B5B;
+    padding-bottom: 10px;
+    width: 11rem;
+}
+
+.fa-message {
+    color: #656565;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.fa-gavel {
+    color: #656565;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.fa-clock {
+    color: #656565;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.fa-arrow-right-from-bracket {
+    color: #656565;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.statdata {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    color: #000000;
+    margin-left: 3rem;
+    margin-top: 4.2rem;
+    font-size: 20px;
+}

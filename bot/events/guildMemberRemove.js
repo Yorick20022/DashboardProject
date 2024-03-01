@@ -10,15 +10,21 @@ const connection = mysql.createConnection({
 });
 
 module.exports = {
-    name: Events.GuildMemberAdd,
+    name: Events.GuildMemberRemove,
     once: false,
     execute(member) {
-        const insertQuery = 'INSERT INTO joins (user_id, user, user_xp) VALUES (?, ?, 0)';
 
-        const joinerID = member.id
-        const joinerUsername = member.user.username
+        const personLeaveId = member.id
 
-        connection.query(insertQuery, [joinerID, joinerUsername], (error) => {
+        const deleteQuery =
+            `
+            DELETE joins, levels
+            FROM joins
+            INNER JOIN levels ON joins.user_id = levels.user_id
+            WHERE joins.user_id = ${personLeaveId};
+            `;
+
+        connection.query(deleteQuery, [personLeaveId], (error) => {
             if (error) {
                 console.error('Error executing insert query:', error);
                 return;

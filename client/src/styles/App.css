@@ -1,21 +1,14 @@
-.maindiv {
-  margin: 300px auto;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: sans-serif;
+body {
+  color: #FFF;
+  margin: 0;
+  background-color: #35473E;
+  visibility: 96%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.redirect {
-  outline: none;
-  padding: 10px;
-  border: none;
-  font-size: 20px;
-  margin-top: 20px;
-  border-radius: 8px;
-  background: #6D81CD;
-  cursor: pointer;
-  text-decoration: none;
-  color: white;
-}
+
+  
